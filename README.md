@@ -17,9 +17,15 @@
 	3) Ensure that the ports 5000 & 9200 are NOT in use already
 
 ### To start the container init & the service
-
+    
     chmod +x run.sh
     ./run.sh
+    
+    Note:
+    This will perform the following actions:
+      1) Download & run the Elasticsearch:7.13.2 container
+      2) Build the app docker container
+      3) Run the project container
 
 ### View the APIs
 
@@ -44,12 +50,13 @@
 
 
 ### Development summary
-    * Programming language - python3.8 (or above) 
-    * Webframework - FastAPI
-    * Dependency management - Poetry
-    * Database - Elasticsearch
+    Programming language: python (version: 3.8 or above) 
+    Webframework: FastAPI
+    Dependency management: Poetry
+    Database: Elasticsearch
 
-    * Project is dockerized
+    * The project is dockerized
+    * APIs for fetching & searching all stored videos
     * A background task to fetch newly published videos 
     * Support for multiple API keys
     * Search capability enabled on the video's Title/Description fields

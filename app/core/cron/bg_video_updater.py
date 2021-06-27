@@ -67,7 +67,7 @@ def insert_new_videos(
                 next_page_token = youtube_published_videos_instance.nextPageToken
     except VideoRegistryException as e:
         logger.error(
-            "Error occured while fetching newly published videos", error=str(e)
+            "Error occurred while fetching newly published videos", error=str(e)
         )
 
 
