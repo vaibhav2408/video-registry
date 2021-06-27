@@ -72,7 +72,7 @@
     3) Run code locally: 
         a) install poetry: pip3 install poetry
         b) install the required packages: poetry install
-	c) Update the elasticsearch hostname accordingly at (app/core/config.py:41)
+        c) Update the elasticsearch hostname accordingly at (app/core/config.py:41)
         d) run the service: poetry run
     
     4) To add new dependancy to the project:
