@@ -29,7 +29,6 @@ class BaseApiCaller:
             resp = requests.get(url=url, params=self.params)
             if resp.status_code == HTTP_200_OK:
                 response = resp.json()
-                logger.debug(endpoint=self.path, status_code=resp.status_code)
                 return response
             elif 400 <= resp.status_code < 500:
                 logger.exception(
