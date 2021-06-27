@@ -42,7 +42,7 @@
             You can set the limit & offset as per your choice
     
      2) To query the stored data:
-         http://0.0.0.0:5000/videos-registry/v1/search?limit=50&offset=0&query=ball
+         http://0.0.0.0:5000/videos-registry/v1/search?limit=50&offset=0&query=football player
          
         NOTE:
             query: The search string
