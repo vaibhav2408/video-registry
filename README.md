@@ -69,10 +69,11 @@
     2) Fix code linting issues:
         poetry run fix-lint
     
-    3) Run code locally:
+    3) Run code locally: 
         a) install poetry: pip3 install poetry
         b) install the required packages: poetry install
-        c) run the service: poetry run
+	c) Update the elasticsearch hostname accordingly at (app/core/config.py:41)
+        d) run the service: poetry run
     
     4) To add new dependancy to the project:
         a) poetry add <module-name>
